@@ -71,8 +71,6 @@ int processDirectory(int* totalSize, char* dirName)
             if (processDirectory(totalSize,filePath) == EXIT_FAILURE)
                 response = EXIT_FAILURE;
             
-            printf("DIR: %s\n", dirEntry->d_name);
-            
         }
         else
         {
